@@ -1,6 +1,6 @@
 import { Carousel } from 'react-responsive-carousel';
 import AudioComponent from './AudioComponent';
-/* import 'react-responsive-carousel/lib/styles/carousel.min.css'; */
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import './App.css';
 
 import audio1 from './soundfile/iloveyou.mp3';
