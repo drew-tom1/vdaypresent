@@ -11,6 +11,7 @@ import img4 from './img/IMG_3508.JPG';
 import img5 from './img/IMG_3543.JPG';
 import img6 from './img/IMG_4953.JPG';
 import img7 from './img/IMG_3841.jpg';
+import gif1 from './img/YIPPE1.gif';
 
 const pageStyling = {
   background: '#8fb6ab',
@@ -20,6 +21,12 @@ const pageStyling = {
   alignItems: 'center',
   height: '100vh',
 };
+
+const gifStyling = {
+  marginLeft: '100px',  
+  animation: 'rotate 5s infinite'
+};
+
 
 const Valentine = () => {
   const audioSrc = audio1
@@ -31,6 +38,7 @@ const Valentine = () => {
 
         <div className = "container love-message">
           <h1>❤️I love you!❤️</h1>
+          <img src = {gif1} alt = 'meandyoufr' style = {gifStyling} />
         </div>
 
         <Carousel
