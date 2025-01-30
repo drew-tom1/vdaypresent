@@ -1,17 +1,17 @@
 import { Carousel } from 'react-responsive-carousel';
-import AudioComponent from './AudioComponent';
+import AudioComponent from './components/audio';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import './App.css';
 
-import audio1 from './soundfile/iloveyou.mp3';
-import img1 from './img/IMG_4900.JPG';
-import img2 from './img/IMG_4949.JPG';
-import img3 from './img/IMG_5018.JPG';
-import img4 from './img/IMG_3508.JPG';
-import img5 from './img/IMG_3543.JPG';
-import img6 from './img/IMG_4953.JPG';
-import img7 from './img/IMG_3841.jpg';
-import gif1 from './img/YIPPE1.gif';
+import audio1 from './static/audio.mp3';
+import img1 from './static/IMG_4900.JPG';
+import img2 from './static/IMG_4949.JPG';
+import img3 from './static/IMG_5018.JPG';
+import img4 from './static/IMG_3508.JPG';
+import img5 from './static/IMG_3543.JPG';
+import img6 from './static/IMG_4953.JPG';
+import img7 from './static/IMG_3841.jpg';
+import gif1 from './static/YIPPE1.gif';
 
 const pageStyling = {
   background: '#8fb6ab',
